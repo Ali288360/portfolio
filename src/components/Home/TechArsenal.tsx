@@ -100,7 +100,7 @@ const TechArsenal = () => {
                 <h2 className="text-3xl md:text-5xl font-bold text-white text-center">
                     Tech <span className="text-neon-purple">Arsenal</span>
                 </h2>
-                <p className="text-gray-500 font-mono text-xs mt-3 tracking-widest uppercase">// actively learning &amp; building</p>
+                <p className="text-gray-500 font-mono text-xs mt-3 tracking-widest uppercase">{"// actively learning & building"}</p>
             </div>
 
             <div className="flex flex-col lg:flex-row gap-10">
