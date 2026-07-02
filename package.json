@@ -1,0 +1,52 @@
+{
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "homepage": "https://bhushanzade.github.io/nextjs-profile-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3",
+    "@headlessui/react": "^2.2.0",
+    "@netlify/plugin-nextjs": "^5.10.1",
+    "@react-three/drei": "^10.0.4",
+    "@react-three/fiber": "^9.0.4",
+    "@tailwindcss/postcss": "^4.0.14",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "axios": "^1.8.3",
+    "cloudinary": "^2.6.0",
+    "clsx": "^2.1.1",
+    "envalid": "^8.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "framer-motion": "^12.4.7",
+    "maath": "^0.10.8",
+    "my-portfolio": "file:",
+    "next": "15.1.7",
+    "plaiceholder": "^3.0.0",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-calendly": "^4.3.1",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-swipeable": "^7.0.2",
+    "react-type-animation": "^3.2.0",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.0.14",
+    "three": "^0.174.0",
+    "typescript": "^5",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "AWS Academy Cloud Foundations",
+    "provider": "Amazon Web Services Academy",
+    "certLink": "https://aws.amazon.com/training/awsacademy/"
+  },
+  {
+    "id": 2,
+    "title": "Responsive Web Design",
+    "provider": "freeCodeCamp",
+    "certLink": "https://www.freecodecamp.org/certification/AbdiAliAbdi/responsive-web-design"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Algorithms and Data Structures",
+    "provider": "freeCodeCamp",
+    "certLink": "https://www.freecodecamp.org/AbdiAliAbdi"
+  },
+  {
+    "id": 4,
+    "title": "Oracle Java SE Foundations (In Progress)",
+    "provider": "Oracle University",
+    "certLink": "https://education.oracle.com/java"
+  }
+]
