@@ -2,33 +2,24 @@ import { TCertificate } from '@type/Certificate';
 import { TWorkExperience } from '@type/Company';
 import { TEducation } from '@type/Eduction';
 import { TProject } from '@type/Project';
-import fs from 'fs';
-import path from 'path';
 
-function readJson<T>(filename: string): T[] {
-  try {
-    const filePath = path.join(process.cwd(), 'public', 'json', filename);
-    const raw = fs.readFileSync(filePath, 'utf-8');
-    const data = JSON.parse(raw);
-    return Array.isArray(data) ? data : [];
-  } catch (err) {
-    console.error(`Failed to read ${filename}:`, err);
-    return [];
-  }
-}
+import projectsData from '../../public/json/projects.json';
+import workExpData from '../../public/json/work-experiences.json';
+import eduData from '../../public/json/educations.json';
+import certData from '../../public/json/certifications.json';
 
 export async function getAllProjects(): Promise<TProject[]> {
-  return readJson<TProject>('projects.json');
+  return Array.isArray(projectsData) ? (projectsData as unknown as TProject[]) : [];
 }
 
 export async function getWorkExperiences(): Promise<TWorkExperience[]> {
-  return readJson<TWorkExperience>('work-experiences.json');
+  return Array.isArray(workExpData) ? (workExpData as unknown as TWorkExperience[]) : [];
 }
 
 export async function getEducations(): Promise<TEducation[]> {
-  return readJson<TEducation>('educations.json');
+  return Array.isArray(eduData) ? (eduData as unknown as TEducation[]) : [];
 }
 
 export async function getCertifications(): Promise<TCertificate[]> {
-  return readJson<TCertificate>('certifications.json');
+  return Array.isArray(certData) ? (certData as unknown as TCertificate[]) : [];
 }
