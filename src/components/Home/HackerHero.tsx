@@ -139,8 +139,8 @@ const HackerHero = () => {
                                     className="border-green-500 text-green-500 hover:bg-green-500 hover:text-black hover:shadow-[0_0_20px_#22c55e] shadow-[0_0_10px_rgba(34,197,94,0.3)] group relative overflow-hidden"
                                     onClick={() => {
                                         const link = document.createElement('a');
-                                        link.href = '/abdi-ali-abdi_resume.pdf';
-                                        link.download = 'Abdi_Ali_Abdi_Resume.pdf';
+                                        link.href = '/abdi-ali-abdi-resume.html';
+                                        link.download = 'Abdi_Ali_Abdi_Resume.html';
                                         document.body.appendChild(link);
                                         link.click();
                                         document.body.removeChild(link);

@@ -16,8 +16,8 @@ const projects = [
         description: "A cyberpunk-themed personal portfolio built with Next.js, showcasing projects, skills, and academic background. Features 3D animations, glassmorphism UI, and responsive design.",
         tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
         image: "🌐",
-        github: "https://github.com/AbdiAliAbdi",
-        live: "https://abdialiabdi.netlify.app",
+        github: "https://github.com/Ali288360",
+        live: "https://Ali288360.netlify.app",
         stats: {
             "Type": "Portfolio",
             "Stack": "Full Stack",
@@ -32,7 +32,7 @@ const projects = [
         description: "A full-stack web application for managing student records, courses, attendance, and grades. Includes admin and student portals with role-based authentication using JWT.",
         tech: ["React", "Node.js", "Express.js", "MySQL"],
         image: "🎓",
-        github: "https://github.com/AbdiAliAbdi",
+        github: "https://github.com/Ali288360",
         live: "",
         stats: {
             "Backend": "REST API",
@@ -48,7 +48,7 @@ const projects = [
         description: "A React-based task management application with CRUD operations, drag-and-drop task reordering, priority levels, and a MongoDB backend. Supports user authentication and persistent data.",
         tech: ["React", "Node.js", "MongoDB", "Express.js"],
         image: "✅",
-        github: "https://github.com/AbdiAliAbdi",
+        github: "https://github.com/Ali288360",
         live: "",
         stats: {
             "Features": "CRUD+Auth",
@@ -64,8 +64,8 @@ const projects = [
         description: "A responsive weather application consuming the OpenWeatherMap API. Displays real-time weather, 5-day forecasts, and location-based search with a clean, modern UI.",
         tech: ["React", "REST API", "CSS3", "JavaScript"],
         image: "🌤️",
-        github: "https://github.com/AbdiAliAbdi",
-        live: "https://github.com/AbdiAliAbdi",
+        github: "https://github.com/Ali288360",
+        live: "https://github.com/Ali288360",
         stats: {
             "API": "OpenWeather",
             "Type": "Frontend",
@@ -80,7 +80,7 @@ const projects = [
         description: "A secure user authentication backend built with Node.js and Express. Implements JWT tokens, bcrypt password hashing, protected routes, email verification flow, and middleware patterns.",
         tech: ["Node.js", "Express.js", "PostgreSQL", "JWT"],
         image: "🔐",
-        github: "https://github.com/AbdiAliAbdi",
+        github: "https://github.com/Ali288360",
         live: "",
         stats: {
             "Security": "JWT+Bcrypt",
@@ -96,7 +96,7 @@ const projects = [
         description: "Hands-on cloud computing lab exercises using AWS Academy. Covers EC2 instances, S3 storage, IAM roles, VPC networking, and basic cloud architecture patterns from AWS Academy coursework.",
         tech: ["AWS EC2", "AWS S3", "AWS IAM", "VPC"],
         image: "☁️",
-        github: "https://github.com/AbdiAliAbdi",
+        github: "https://github.com/Ali288360",
         live: "",
         stats: {
             "Platform": "AWS Academy",
@@ -112,7 +112,7 @@ const projects = [
         description: "A Java-based library management system demonstrating OOP principles. Features book cataloging, member management, borrow/return tracking, and search functionality with file I/O persistence.",
         tech: ["Java", "OOP", "File I/O", "Swing UI"],
         image: "📚",
-        github: "https://github.com/AbdiAliAbdi",
+        github: "https://github.com/Ali288360",
         live: "",
         stats: {
             "Language": "Java",
@@ -128,7 +128,7 @@ const projects = [
         description: "A production-ready REST API built with Express.js following best practices. Includes proper routing, request validation, error handling middleware, rate limiting, and full CRUD operations with MongoDB.",
         tech: ["Node.js", "Express.js", "MongoDB", "Postman"],
         image: "🛠️",
-        github: "https://github.com/AbdiAliAbdi",
+        github: "https://github.com/Ali288360",
         live: "",
         stats: {
             "Endpoints": "RESTful",

@@ -25,13 +25,13 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://abdialiabdi.netlify.app/"),
+  metadataBase: new URL("https://Ali288360.netlify.app/"),
   title: title,
   description: description,
   openGraph: {
     title: title,
     description: description,
-    url: "https://abdialiabdi.netlify.app/",
+    url: "https://Ali288360.netlify.app/",
     images: [
       {
         url: "/images/myimg.png",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@AbdiAliAbdi",
+    creator: "@Ali288360",
     title: title,
     description: description,
     images: [
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
         alt: "Abdi Ali Abdi Profile Picture",
       },
     ],
-    site: "@AbdiAliAbdi",
+    site: "@Ali288360",
   },
   // Basic meta tags for SEO
   robots: {
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
   publisher: "Abdi Ali Abdi",
   "authors": [{
     name: "Abdi Ali Abdi",
-    "url": "https://abdialiabdi.netlify.app/",
+    "url": "https://Ali288360.netlify.app/",
   }],
 }
 

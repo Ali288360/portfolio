@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdi Ali Abdi – Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 11pt;
+      color: #000;
+      background: #fff;
+      line-height: 1.35;
+    }
+
+    .page {
+      width: 8.5in;
+      min-height: 11in;
+      margin: 0 auto;
+      padding: 0.55in 0.65in 0.5in 0.65in;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      text-align: center;
+      margin-bottom: 6px;
+    }
+
+    .header h1 {
+      font-size: 17pt;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      margin-bottom: 3px;
+    }
+
+    .header .contact {
+      font-size: 10pt;
+      color: #000;
+    }
+
+    .header .contact a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .header .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── SECTION ── */
+    .section {
+      margin-top: 10px;
+    }
+
+    .section-title {
+      font-size: 11pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      border-bottom: 1.2px solid #000;
+      padding-bottom: 1px;
+      margin-bottom: 6px;
+    }
+
+    /* ── ROW: org left, date right ── */
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .org {
+      font-weight: bold;
+      font-size: 11pt;
+    }
+
+    .date {
+      font-size: 10.5pt;
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin-left: 8px;
+    }
+
+    .role {
+      font-style: italic;
+      font-size: 10.5pt;
+      margin-top: 0px;
+    }
+
+    .meta {
+      font-size: 10.5pt;
+      margin-top: 1px;
+    }
+
+    /* ── BULLETS ── */
+    ul {
+      margin-top: 3px;
+      margin-left: 20px;
+      margin-bottom: 4px;
+    }
+
+    ul li {
+      font-size: 10.5pt;
+      margin-bottom: 2px;
+      line-height: 1.38;
+    }
+
+    /* ── ENTRY block ── */
+    .entry {
+      margin-bottom: 6px;
+    }
+
+    /* ── PROJECT entry ── */
+    .project-title {
+      font-weight: bold;
+      font-size: 10.5pt;
+    }
+
+    .project-tech {
+      font-style: italic;
+      font-size: 10pt;
+    }
+
+    /* ── SKILLS ── */
+    .skills-row {
+      font-size: 10.5pt;
+      margin-bottom: 2px;
+    }
+
+    .skills-row strong {
+      font-weight: bold;
+    }
+
+    /* ── CERT SUB-ENTRY ── */
+    .cert-name {
+      font-weight: bold;
+      font-size: 10.5pt;
+      margin-top: 5px;
+      margin-bottom: 2px;
+    }
+
+    /* ── Print ── */
+    @media print {
+      body { background: #fff; }
+      .page {
+        width: 100%;
+        margin: 0;
+        padding: 0.5in 0.65in;
+        box-shadow: none;
+      }
+      @page {
+        size: letter;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ════════════════ HEADER ════════════════ -->
+  <div class="header">
+    <h1>Abdi Ali Abdi</h1>
+    <div class="contact">
+      Anand, Gujarat, India &nbsp;·&nbsp;
+      (+91) 6359520203 &nbsp;·&nbsp;
+      <a href="mailto:abdialiaa200@gmail.com">abdialiaa200@gmail.com</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/abdi-ali-abdi/" target="_blank">linkedin.com/in/abdi-ali-abdi</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/Ali288360" target="_blank">github.com/Ali288360</a>
+    </div>
+  </div>
+
+  <!-- ════════════════ EDUCATION ════════════════ -->
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="org">Birla Vishvakarma Mahavidyalaya (BVM), Anand, Gujarat</span>
+        <span class="date">Expected Graduation: May 2028</span>
+      </div>
+      <div class="meta">Bachelor of Technology in Computer Engineering</div>
+      <ul>
+        <li>CGPA: 5.25 / 10.00</li>
+        <li><strong>Relevant Coursework:</strong> Programming for Problem Solving, Database Management Systems,
+          Digital Logic and Design, Computer Organization and Architecture, Web Technologies,
+          Data Structures and Algorithms, Cloud Computing Fundamentals</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ════════════════ WORK EXPERIENCE ════════════════ -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="org">AWS Cloud Computing Summer Internship</span>
+        <span class="date">Summer 2024</span>
+      </div>
+      <div class="role">Cloud Computing Intern &nbsp;|&nbsp; Remote / Online</div>
+      <ul>
+        <li>Successfully completed an AWS Cloud Computing Summer Internship program with hands-on lab exercises.</li>
+        <li>Gained practical exposure to AWS services including <strong>EC2, S3, IAM, Lambda, DynamoDB, RDS,</strong> and <strong>CloudWatch</strong>.</li>
+        <li>Performed cloud deployment, auto-scaling configuration, monitoring, and serverless computing exercises.</li>
+        <li>Developed foundational knowledge of cloud architecture, security best practices, and resource management.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ════════════════ ACADEMIC PROJECTS ════════════════ -->
+  <div class="section">
+    <div class="section-title">Academic Projects</div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="project-title">Personal Portfolio Website &nbsp;<span class="project-tech">| Next.js, TypeScript, Tailwind CSS, Framer Motion, Three.js</span></span>
+        <span class="date">2024 – Present</span>
+      </div>
+      <ul>
+        <li>Built a fully responsive, cyberpunk-themed personal portfolio using <strong>Next.js 15</strong> and <strong>TypeScript</strong>, deployed on Netlify.</li>
+        <li>Integrated <strong>Three.js</strong> and <strong>Framer Motion</strong> for 3D particle globe animations, glassmorphism UI, and smooth page transitions.</li>
+        <li>Implemented dynamic GitHub Stats cards, a typing animation hero section, and an interactive project archive.</li>
+        <li>Achieved SEO optimization with structured metadata, Open Graph tags, and semantic HTML throughout.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="project-title">Real Estate Website &nbsp;<span class="project-tech">| HTML, CSS, JavaScript, React</span></span>
+        <span class="date">2024</span>
+      </div>
+      <ul>
+        <li>Developed a modern and fully responsive real estate website using web development technologies.</li>
+        <li>Designed user-friendly pages to display property listings, filters, and detailed property information.</li>
+        <li>Implemented a clean interface focused on usability, accessibility, and mobile responsiveness.</li>
+        <li>Built a scalable component structure in <strong>React</strong> to support future feature additions and dynamic data.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="project-title">Student Management System &nbsp;<span class="project-tech">| React, Node.js, Express.js, MySQL, JWT</span></span>
+        <span class="date">2024</span>
+      </div>
+      <ul>
+        <li>Built a full-stack web application for managing student records, course enrollment, attendance, and grades.</li>
+        <li>Implemented <strong>role-based authentication</strong> using JWT for separate admin and student portals.</li>
+        <li>Designed a normalized <strong>MySQL</strong> relational database schema supporting complex queries and reporting.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="project-title">AWS Cloud Lab Exercises &nbsp;<span class="project-tech">| AWS EC2, S3, IAM, Lambda, DynamoDB, CloudWatch</span></span>
+        <span class="date">2024</span>
+      </div>
+      <ul>
+        <li>Completed structured AWS Academy hands-on labs covering compute, storage, identity, and serverless services.</li>
+        <li>Configured <strong>IAM roles and policies</strong>, launched EC2 instances, and managed S3 bucket permissions.</li>
+        <li>Deployed serverless functions using <strong>AWS Lambda</strong> and monitored performance with <strong>CloudWatch</strong> dashboards.</li>
+        <li>Gained practical experience in cloud security, auto-scaling, and cost-efficient resource management.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ════════════════ CERTIFICATIONS & WORKSHOPS ════════════════ -->
+  <div class="section">
+    <div class="section-title">Certifications &amp; Workshops</div>
+
+    <div class="entry">
+      <div class="cert-name">AWS Cloud Computing Summer Internship &nbsp;–&nbsp; Completion Certificate</div>
+      <ul>
+        <li>Earned completion certificate for AWS Cloud Computing Summer Internship with hands-on project work.</li>
+        <li>Covered services: EC2, S3, IAM, Lambda, DynamoDB, RDS, and CloudWatch across guided lab modules.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="cert-name">Cyber Security Workshop</div>
+      <ul>
+        <li>Attended a Cyber Security Workshop focused on cyber threats, digital safety, and security awareness strategies.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="cert-name">Robotics Workshop</div>
+      <ul>
+        <li>Participated in a hands-on Robotics Workshop and earned a certificate upon successful completion.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="cert-name">DevOps Workshop</div>
+      <ul>
+        <li>Attended a DevOps Workshop and received a certificate while learning DevOps principles and CI/CD workflows.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="cert-name">AWS Community Day – CHARUSAT</div>
+      <ul>
+        <li>Participated in AWS Community Day at CHARUSAT and gained insights from industry experts and cloud professionals.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ════════════════ LEADERSHIP & COMMUNITY ════════════════ -->
+  <div class="section">
+    <div class="section-title">Leadership &amp; Community Involvement</div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="org">Open Source &amp; GitHub Community</span>
+        <span class="date">2023 – Present</span>
+      </div>
+      <ul>
+        <li>Actively maintaining a growing public GitHub portfolio (<a href="https://github.com/Ali288360" style="color:#000;">github.com/Ali288360</a>) with academic and personal projects.</li>
+        <li>Exploring open-source contributions and studying professional codebases to improve software engineering practices.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="org">BVM Engineering College – Collaborative Academic Projects</span>
+        <span class="date">2022 – Present</span>
+      </div>
+      <ul>
+        <li>Collaborated with peers on semester projects involving web development, databases, and system design.</li>
+        <li>Participated in technical workshops and cloud-computing events hosted within the university ecosystem.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ════════════════ SKILLS ════════════════ -->
+  <div class="section">
+    <div class="section-title">Skills</div>
+    <div class="skills-row"><strong>Languages:</strong> Python, C, C++, JavaScript, TypeScript, SQL, Java</div>
+    <div class="skills-row"><strong>Web Technologies:</strong> HTML5, CSS3, React, Next.js, Node.js, Express.js, Tailwind CSS, REST APIs</div>
+    <div class="skills-row"><strong>Cloud &amp; DevOps:</strong> AWS EC2, S3, IAM, Lambda, DynamoDB, RDS, CloudWatch, Netlify, GitHub Pages</div>
+    <div class="skills-row"><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Firebase</div>
+    <div class="skills-row"><strong>Tools:</strong> Git, GitHub, VS Code, Postman, Linux, Figma</div>
+    <div class="skills-row"><strong>Concepts:</strong> Object-Oriented Programming, Data Structures &amp; Algorithms, DBMS, Operating Systems, Computer Networks, Software Engineering, System Design</div>
+  </div>
+
+</div>
+</body>
+</html>

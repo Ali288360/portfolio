@@ -148,7 +148,7 @@ const ConnectSection = () => {
                             <div className="flex flex-col gap-4">
                                 <SocialLink name="Email" icon="📧" url="mailto:abdialiaa200@gmail.com" color="neon-cyan" />
                                 <SocialLink name="LinkedIn" icon="👔" url="https://www.linkedin.com/in/abdi-ali-abdi/" color="neon-purple" />
-                                <SocialLink name="GitHub" icon="⌨️" url="https://github.com/AbdiAliAbdi" color="neon-cyan" />
+                                <SocialLink name="GitHub" icon="⌨️" url="https://github.com/Ali288360" color="neon-cyan" />
 
                                 <div
                                     className="flex items-center gap-3 p-3 rounded-lg border border-green-500/30 bg-black/40 hover:bg-green-500/10 hover:border-green-500/80 transition-all duration-300 group cursor-pointer mt-2 w-full"

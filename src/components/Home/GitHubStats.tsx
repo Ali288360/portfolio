@@ -51,7 +51,7 @@ const GitHubStats = () => {
                 <GlassCard className="col-span-1 md:col-span-2 lg:col-span-1 min-h-[180px] flex items-center justify-center bg-black/40 relative">
                     <div className="relative w-full h-full min-h-[150px]">
                         <StatsImage
-                            src="https://github-readme-stats.vercel.app/api?username=AbdiAliAbdi&show_icons=true&theme=dracula&bg_color=00000000&hide_border=true&title_color=00f3ff&text_color=ededed&icon_color=bc13fe"
+                            src="https://github-readme-stats.vercel.app/api?username=Ali288360&show_icons=true&theme=dracula&bg_color=00000000&hide_border=true&title_color=00f3ff&text_color=ededed&icon_color=bc13fe"
                             alt="GitHub Stats"
                             className="object-contain"
                             errorMessage="STATS_SERVER_OFFLINE"
@@ -63,7 +63,7 @@ const GitHubStats = () => {
                 <GlassCard className="col-span-1 min-h-[180px] flex items-center justify-center bg-black/40 relative">
                     <div className="relative w-full h-full min-h-[150px]">
                         <StatsImage
-                            src="https://nirzak-streak-stats.vercel.app?user=AbdiAliAbdi&theme=dracula&hide_border=true&background=00000000&ring=bc13fe&currStreakLabel=00f3ff"
+                            src="https://nirzak-streak-stats.vercel.app?user=Ali288360&theme=dracula&hide_border=true&background=00000000&ring=bc13fe&currStreakLabel=00f3ff"
                             alt="GitHub Streak"
                             className="object-contain"
                             errorMessage="STREAK_DATA_UNAVAILABLE"
@@ -75,7 +75,7 @@ const GitHubStats = () => {
                 <GlassCard className="col-span-1 min-h-[180px] flex items-center justify-center bg-black/40 relative">
                     <div className="relative w-full h-full min-h-[150px]">
                         <StatsImage
-                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdiAliAbdi&theme=dracula&bg_color=00000000&hide_border=true&title_color=00f3ff&text_color=ededed"
+                            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ali288360&theme=dracula&bg_color=00000000&hide_border=true&title_color=00f3ff&text_color=ededed"
                             alt="Top Languages"
                             className="object-contain"
                             errorMessage="LANG_ANALYSIS_FAILED"
@@ -88,7 +88,7 @@ const GitHubStats = () => {
                     <div className="w-full overflow-x-auto">
                         <div className="relative w-full min-w-[600px] h-[180px]">
                             <StatsImage
-                                src="https://github-readme-activity-graph.vercel.app/graph?username=AbdiAliAbdi&theme=react-dark&bg_color=050505&color=bc13fe&line=00f3ff&point=ffffff&area=true&hide_border=true"
+                                src="https://github-readme-activity-graph.vercel.app/graph?username=Ali288360&theme=react-dark&bg_color=050505&color=bc13fe&line=00f3ff&point=ffffff&area=true&hide_border=true"
                                 alt="Activity Graph"
                                 className="object-contain"
                                 errorMessage="ACTIVITY_LOG_CORRUPTED"

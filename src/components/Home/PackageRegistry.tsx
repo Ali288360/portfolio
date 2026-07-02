@@ -11,7 +11,7 @@ const areas = [
         name: "Full Stack Development",
         version: "React + Node.js",
         desc: "Building end-to-end web applications — from pixel-perfect React frontends to robust Express.js backends with database integration.",
-        url: "https://github.com/AbdiAliAbdi",
+        url: "https://github.com/Ali288360",
         type: "PRIMARY_INTEREST",
         id: "area-01"
     },
@@ -19,7 +19,7 @@ const areas = [
         name: "Backend Development",
         version: "Node + Express + DB",
         desc: "Designing REST APIs, server-side logic, authentication systems, and middleware. Passionate about clean architecture and scalable server patterns.",
-        url: "https://github.com/AbdiAliAbdi",
+        url: "https://github.com/Ali288360",
         type: "CORE_FOCUS",
         id: "area-02"
     },
@@ -27,7 +27,7 @@ const areas = [
         name: "Cloud Computing",
         version: "AWS Academy",
         desc: "Exploring cloud infrastructure with AWS — EC2, S3, IAM, and VPC. Working towards cloud certifications and understanding cloud-native application design.",
-        url: "https://github.com/AbdiAliAbdi",
+        url: "https://github.com/Ali288360",
         type: "LEARNING",
         id: "area-03"
     },
@@ -35,7 +35,7 @@ const areas = [
         name: "Database Design",
         version: "SQL + NoSQL",
         desc: "Designing efficient relational schemas with MySQL/PostgreSQL and document models with MongoDB. Understanding query optimization and data modeling principles.",
-        url: "https://github.com/AbdiAliAbdi",
+        url: "https://github.com/Ali288360",
         type: "CORE_SKILL",
         id: "area-04"
     },
@@ -43,7 +43,7 @@ const areas = [
         name: "Artificial Intelligence",
         version: "Exploring AI/ML",
         desc: "Fascinated by how AI is reshaping software. Exploring machine learning concepts, AI-powered APIs, and how to integrate intelligent features into web applications.",
-        url: "https://github.com/AbdiAliAbdi",
+        url: "https://github.com/Ali288360",
         type: "EXPLORATION",
         id: "area-05"
     },
@@ -51,7 +51,7 @@ const areas = [
         name: "Software Architecture",
         version: "System Design",
         desc: "Learning the principles of scalable system design — microservices, caching strategies, load balancing, and how to architect software that can grow.",
-        url: "https://github.com/AbdiAliAbdi",
+        url: "https://github.com/Ali288360",
         type: "GROWTH_AREA",
         id: "area-06"
     }
@@ -195,7 +195,7 @@ const PackageRegistry = () => {
                                 <div className="flex items-center justify-between pt-4 border-t border-white/5 group-hover:border-neon-cyan/20 transition-colors">
                                     <div className="flex flex-col">
                                         <span className="text-[8px] md:text-[9px] uppercase text-gray-500 font-mono">GitHub</span>
-                                        <span className="text-base md:text-lg font-bold text-white">@AbdiAliAbdi</span>
+                                        <span className="text-base md:text-lg font-bold text-white">@Ali288360</span>
                                     </div>
                                     <a href={area.url} target="_blank" rel="noopener noreferrer">
                                         <NeonButton className="px-4 py-2 text-[10px] md:text-xs group-hover:shadow-[0_0_20px_rgba(0,243,255,0.4)] transition-shadow">
