@@ -154,7 +154,7 @@ const ConnectSection = () => {
                                     className="flex items-center gap-3 p-3 rounded-lg border border-green-500/30 bg-black/40 hover:bg-green-500/10 hover:border-green-500/80 transition-all duration-300 group cursor-pointer mt-2 w-full"
                                     onClick={() => {
                                         const link = document.createElement('a');
-                                        link.href = '/abdi-ali-abdi_resume.pdf';
+                                        link.href = '/Abdi_Ali_Abdi_Resume.pdf';
                                         link.download = 'Abdi_Ali_Abdi_Resume.pdf';
                                         document.body.appendChild(link);
                                         link.click();
@@ -162,15 +162,17 @@ const ConnectSection = () => {
                                     }}
                                 >
                                     <div className="w-10 h-10 rounded-full flex items-center justify-center bg-green-500/10 text-green-500 group-hover:bg-green-500/20 transition-colors">
-                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                                         </svg>
                                     </div>
                                     <div className="flex flex-col">
-                                        <span className="text-xs text-gray-400 font-mono tracking-widest uppercase group-hover:text-green-400/80 transition-colors">Professional Dossier</span>
-                                        <span className="text-sm font-bold text-white group-hover:text-green-500 transition-colors">DOWNLOAD FILE &darr;</span>
+                                        <span className="text-xs text-gray-400 font-mono tracking-widest uppercase group-hover:text-green-400/80 transition-colors">My Resume</span>
+                                        <span className="text-sm font-bold text-white group-hover:text-green-500 transition-colors">DOWNLOAD PDF ↓</span>
                                     </div>
                                 </div>
+
+
 
                                 {/* Decorative Scanline */}
                                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-neon-cyan/50 to-transparent animate-scan-fast opacity-50 pointer-events-none" />

@@ -4,79 +4,42 @@ import React from "react";
 import { motion } from "framer-motion";
 import { GlassCard } from "@components/ui/GlassCard";
 
-// Certifications — organized as Completed, In Progress, Planned
 const certs = [
     {
-        title: "AWS Academy Cloud Foundations",
+        title: "AWS Cloud Internship",
         issuer: "Amazon Web Services",
-        id: "AWS-CLOUD-FOUND",
-        level: "COMPLETED",
-        date: "2024",
+        id: "AWS-INTERN-2026",
+        level: "CLOUD_CLEARANCE",
+        date: "2026",
         icon: "☁️",
         statusColor: "green"
     },
     {
-        title: "Responsive Web Design",
-        issuer: "freeCodeCamp",
-        id: "FCC-RWD-2024",
-        level: "COMPLETED",
-        date: "2024",
+        title: "Full Stack Web Development",
+        issuer: "Coursera",
+        id: "FULLSTACK-WEB",
+        level: "L4_CLEARANCE",
+        date: "2026",
         icon: "🌐",
         statusColor: "green"
     },
     {
-        title: "JavaScript Algorithms",
-        issuer: "freeCodeCamp",
-        id: "FCC-JS-2024",
-        level: "COMPLETED",
-        date: "2024",
-        icon: "⚡",
+        title: "React & Node.js Development",
+        issuer: "Udemy",
+        id: "REACT-NODE-DEV",
+        level: "L3_CLEARANCE",
+        date: "2026",
+        icon: "⚛️",
         statusColor: "green"
     },
     {
-        title: "Oracle Java SE (OCA)",
-        issuer: "Oracle",
-        id: "ORACLE-JAVA-IP",
-        level: "IN PROGRESS",
-        date: "2025",
-        icon: "☕",
-        statusColor: "yellow"
-    },
-    {
-        title: "AWS Certified Cloud Practitioner",
-        issuer: "Amazon Web Services",
-        id: "AWS-CCP-PLAN",
-        level: "PLANNED",
-        date: "2025",
-        icon: "🎯",
-        statusColor: "blue"
-    },
-    {
-        title: "Google Cloud Skills Boost",
-        issuer: "Google Cloud",
-        id: "GCP-SKILLS-PLAN",
-        level: "PLANNED",
-        date: "2025",
-        icon: "🔵",
-        statusColor: "blue"
-    },
-    {
-        title: "Meta Front-End Developer",
-        issuer: "Meta / Coursera",
-        id: "META-FE-PLAN",
-        level: "PLANNED",
-        date: "2025–2026",
-        icon: "🔷",
-        statusColor: "blue"
-    },
-    {
-        title: "AWS Solutions Architect Associate",
-        issuer: "Amazon Web Services",
-        id: "AWS-SAA-FUTURE",
-        level: "PLANNED",
+        title: "Database Management Systems",
+        issuer: "BVM College",
+        id: "DBMS-BVM-5SEM",
+        level: "L3_ACADEMIC",
         date: "2026",
-        icon: "🏗️",
-        statusColor: "gray"
+        icon: "🗄️",
+        statusColor: "yellow"
     }
 ];
 

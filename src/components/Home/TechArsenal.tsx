@@ -56,9 +56,12 @@ const categories = [
         id: "cloud",
         name: "CLOUD_INFRA",
         skills: [
-            { name: "AWS", level: 55, icon: "aws" },
-            { name: "GitHub Pages", level: 75, icon: "github" },
-            { name: "Netlify", level: 70, icon: "netlify" },
+            { name: "AWS EC2", level: 65, icon: "aws" },
+            { name: "AWS S3", level: 65, icon: "aws" },
+            { name: "AWS Lambda", level: 55, icon: "aws" },
+            { name: "AWS IAM", level: 60, icon: "aws" },
+            { name: "Netlify", level: 75, icon: "netlify" },
+            { name: "GitHub Pages", level: 78, icon: "github" },
         ]
     },
     {

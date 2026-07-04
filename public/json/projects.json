@@ -5,38 +5,22 @@
     "github_url": "https://github.com/AbdiAliAbdi",
     "live_or_demo_url": "https://abdialiabdi.netlify.app",
     "project_category": "Full Stack",
-    "project_overview": "A cyberpunk-themed personal portfolio built with Next.js, TypeScript, and Tailwind CSS. Features 3D animations using Three.js, glassmorphism UI, particle effects, responsive design, and GitHub stats integration. Deployed on Netlify."
+    "project_overview": "A cyberpunk-themed personal portfolio built with Next.js, TypeScript, and Tailwind CSS. Features 3D animations using Three.js, glassmorphism UI, particle effects, and responsive design. Deployed on Netlify. (2026)"
   },
   {
-    "project_title": "Student Management System",
-    "image": "/images/projects/student-mgmt.webp",
+    "project_title": "POS System",
+    "image": "/images/projects/pos-system.webp",
     "github_url": "https://github.com/AbdiAliAbdi",
     "live_or_demo_url": "",
     "project_category": "Full Stack",
-    "project_overview": "A full-stack web application for managing student records, courses, attendance, and grades. Built with React frontend and Node.js/Express backend with MySQL database. Includes role-based authentication using JWT for admin and student portals."
+    "project_overview": "A full-featured Point of Sale system to manage product inventory, process sales transactions, and generate receipts. Includes product management, category filtering, sales tracking, and a smooth checkout flow. (2026)"
   },
   {
-    "project_title": "Task Management App",
-    "image": "/images/projects/task-app.webp",
+    "project_title": "MERN Admin Dashboard",
+    "image": "/images/projects/mern-dashboard.webp",
     "github_url": "https://github.com/AbdiAliAbdi",
     "live_or_demo_url": "",
     "project_category": "Full Stack",
-    "project_overview": "A React-based task management application with CRUD operations, drag-and-drop task reordering, priority levels, and deadline tracking. Backend powered by Node.js, Express.js, and MongoDB with persistent user authentication."
-  },
-  {
-    "project_title": "Weather Application",
-    "image": "/images/projects/weather-app.webp",
-    "github_url": "https://github.com/AbdiAliAbdi",
-    "live_or_demo_url": "https://github.com/AbdiAliAbdi",
-    "project_category": "Frontend",
-    "project_overview": "A responsive weather application consuming the OpenWeatherMap API to display real-time weather data, 5-day forecasts, and location-based search. Built with React and CSS3, featuring a clean, modern user interface."
-  },
-  {
-    "project_title": "REST API Backend",
-    "image": "/images/projects/rest-api.webp",
-    "github_url": "https://github.com/AbdiAliAbdi",
-    "live_or_demo_url": "",
-    "project_category": "Backend",
-    "project_overview": "A production-ready REST API built with Express.js following best practices: proper routing, request validation, error handling middleware, rate limiting, JWT authentication, and full CRUD operations with PostgreSQL database."
+    "project_overview": "A full-featured admin dashboard built with the MERN stack (MongoDB, Express.js, React, Node.js). Features user authentication with JWT, role-based access control, dynamic charts and analytics, CRUD operations, and a fully responsive layout. (2026)"
   }
 ]

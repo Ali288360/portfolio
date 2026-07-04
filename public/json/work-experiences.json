@@ -1,67 +1,35 @@
 [
   {
-    "position": "Sr. Software Engineer",
-    "name": "Bacancy Technology",
-    "companyLogo": "/images/bacancy-logo-white.svg",
-    "startDate": "Jully 2022",
+    "name": "Independent Learning",
+    "position": "Self-Taught Full Stack Developer | Online / India",
+    "startDate": "2023",
     "endDate": "Present",
-    "skills": [
-      "Angular",
-      "React JS",
-      "Frontend",
-      "Node JS",
-      "Mongo",
-      "Firebase",
-      "AppWrite",
-      "Tailwind"
-    ],
     "responsibilities": [
-      "Spearheading the development of dynamic web applications using Angular, enhancing user experience through responsive design and innovative UI components.",
-      "Collaborating with cross - functional teams to design and implement RESTful APIs using Node.js, ensuring seamless data integration with MongoDB and MySQL databases.",
-      "Leveraging best practices in code quality and performance optimization, resulting in improved application speed and scalability.\nMentoring junior developers, fostering a collaborative environment and promoting knowledge sharing."
-    ]
+      "Mastering modern web development technologies through self-directed learning.",
+      "Building practical full-stack applications to strengthen programming concepts."
+    ],
+    "skills": ["HTML5", "CSS3", "JavaScript", "React", "Node.js"]
   },
   {
-    "position": "Angular Developer",
-    "name": "Nullplex Software Pvt Ltd",
-    "companyLogo": "/images/nullplex-logo.png",
-    "startDate": "Apr 2019",
-    "endDate": "Jun 2022",
-    "skills": [
-      "Angular",
-      "Firebase",
-      "HTML & CSS",
-      "Bootstrap"
-    ],
+    "name": "AWS Academy Cloud Labs",
+    "position": "Cloud Computing Learner | AWS Academy Program",
+    "startDate": "2024",
+    "endDate": "Present",
     "responsibilities": [
-      "Developed robust web applications using Angular, focusing on creating intuitive interfaces and enhancing user engagement.",
-      "Implemented server- side logic and database management through Node.js, MongoDB, and MySQL, ensuring efficient data retrieval and storage solutions.",
-      "Participated in the full software development lifecycle, from requirement gathering to deployment, consistently meeting project deadlines and client expectations. Engaged in code reviews and implemented feedback, contributing to a culture of continuous improvement and excellence in software delivery."
-    ]
+      "Completing structured hands-on labs covering AWS compute, storage, and networking.",
+      "Gaining practical exposure to IAM, EC2, S3, and serverless architecture."
+    ],
+    "skills": ["AWS EC2", "AWS S3", "IAM", "Cloud Computing"]
   },
   {
-    "position": "Founder",
-    "name": "Pro Code Programming",
-    "companyLogo": "/images/procode.png",
-    "startDate": "Dec 2019",
+    "name": "Open Source Exploration",
+    "position": "Open Source Learner & Contributor | GitHub",
+    "startDate": "2025",
     "endDate": "Present",
-    "skills": [
-      "Angular",
-      "React JS",
-      "Frontend",
-      "Node JS",
-      "Mongo",
-      "Firebase",
-      "AppWrite",
-      "VPS",
-      "Tailwind",
-      "Cloud Management",
-      "Astro",
-      "Next Js"
-    ],
     "responsibilities": [
-      "Discover a world of programming knowledge with our comprehensive suite of tools.",
-      "From practice assignments & skill challenges, online compilers, write advance level code template, profile builder to resume builders, we've got everything you need to succeed in tech."
-    ]
+      "Actively maintaining a growing public GitHub portfolio.",
+      "Exploring open-source contributions and studying professional codebases."
+    ],
+    "skills": ["Git", "GitHub", "Version Control", "Open Source"]
   }
 ]

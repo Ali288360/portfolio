@@ -6,18 +6,19 @@ import { motion, AnimatePresence } from "framer-motion";
 import { GlassCard } from "@components/ui/GlassCard";
 
 
-// Abdi Ali Abdi - Student Projects
+// Abdi Ali Abdi - Projects
 const projects = [
     {
         id: "portfolio",
         title: "Personal Portfolio Website",
         codename: "PORTFOLIO_V2",
         status: "DEPLOYED",
-        description: "A cyberpunk-themed personal portfolio built with Next.js, showcasing projects, skills, and academic background. Features 3D animations, glassmorphism UI, and responsive design.",
+        description: "A cyberpunk-themed personal portfolio built with Next.js, TypeScript, and Tailwind CSS. Features 3D animations using Three.js, glassmorphism UI, particle effects, and responsive design.",
         tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
         image: "🌐",
-        github: "https://github.com/Ali288360",
-        live: "https://Ali288360.netlify.app",
+        github: "https://github.com/AbdiAliAbdi",
+        live: "https://abdialiabdi.netlify.app",
+        year: "2026",
         stats: {
             "Type": "Portfolio",
             "Stack": "Full Stack",
@@ -25,118 +26,42 @@ const projects = [
         }
     },
     {
-        id: "student-mgmt",
-        title: "Student Management System",
-        codename: "STUDENT_SYS",
+        id: "pos-system",
+        title: "POS System",
+        codename: "POS_CORE",
         status: "COMPLETED",
-        description: "A full-stack web application for managing student records, courses, attendance, and grades. Includes admin and student portals with role-based authentication using JWT.",
-        tech: ["React", "Node.js", "Express.js", "MySQL"],
-        image: "🎓",
-        github: "https://github.com/Ali288360",
-        live: "",
-        stats: {
-            "Backend": "REST API",
-            "Auth": "JWT",
-            "DB": "MySQL"
-        }
-    },
-    {
-        id: "task-app",
-        title: "Task Management App",
-        codename: "TASK_PROTOCOL",
-        status: "ACTIVE",
-        description: "A React-based task management application with CRUD operations, drag-and-drop task reordering, priority levels, and a MongoDB backend. Supports user authentication and persistent data.",
+        description: "A full-featured Point of Sale system to manage product inventory, process sales transactions, and generate receipts. Includes product management, category filtering, sales tracking, and a smooth checkout flow.",
         tech: ["React", "Node.js", "MongoDB", "Express.js"],
-        image: "✅",
-        github: "https://github.com/Ali288360",
+        image: "🛒",
+        github: "https://github.com/AbdiAliAbdi",
         live: "",
+        year: "2026",
         stats: {
-            "Features": "CRUD+Auth",
+            "Type": "Full Stack",
             "DB": "MongoDB",
-            "UI": "React"
+            "Auth": "JWT"
         }
     },
     {
-        id: "weather-app",
-        title: "Weather Application",
-        codename: "WEATHER_CORE",
-        status: "DEPLOYED",
-        description: "A responsive weather application consuming the OpenWeatherMap API. Displays real-time weather, 5-day forecasts, and location-based search with a clean, modern UI.",
-        tech: ["React", "REST API", "CSS3", "JavaScript"],
-        image: "🌤️",
-        github: "https://github.com/Ali288360",
-        live: "https://github.com/Ali288360",
-        stats: {
-            "API": "OpenWeather",
-            "Type": "Frontend",
-            "Design": "Responsive"
-        }
-    },
-    {
-        id: "auth-system",
-        title: "Authentication System",
-        codename: "AUTH_GATE",
+        id: "mern-dashboard",
+        title: "MERN Admin Dashboard",
+        codename: "MERN_DASH",
         status: "COMPLETED",
-        description: "A secure user authentication backend built with Node.js and Express. Implements JWT tokens, bcrypt password hashing, protected routes, email verification flow, and middleware patterns.",
-        tech: ["Node.js", "Express.js", "PostgreSQL", "JWT"],
-        image: "🔐",
-        github: "https://github.com/Ali288360",
+        description: "A full-featured admin dashboard built with the MERN stack (MongoDB, Express.js, React, Node.js). Features user authentication with JWT, role-based access control, dynamic charts and analytics, CRUD operations, and a fully responsive layout.",
+        tech: ["React", "Node.js", "MongoDB", "Express.js"],
+        image: "📊",
+        github: "https://github.com/AbdiAliAbdi",
         live: "",
+        year: "2026",
         stats: {
-            "Security": "JWT+Bcrypt",
-            "DB": "PostgreSQL",
-            "Type": "Backend"
-        }
-    },
-    {
-        id: "aws-labs",
-        title: "AWS Cloud Labs",
-        codename: "CLOUD_OPS",
-        status: "IN PROGRESS",
-        description: "Hands-on cloud computing lab exercises using AWS Academy. Covers EC2 instances, S3 storage, IAM roles, VPC networking, and basic cloud architecture patterns from AWS Academy coursework.",
-        tech: ["AWS EC2", "AWS S3", "AWS IAM", "VPC"],
-        image: "☁️",
-        github: "https://github.com/Ali288360",
-        live: "",
-        stats: {
-            "Platform": "AWS Academy",
-            "Services": "EC2,S3,IAM",
-            "Focus": "Cloud Arch."
-        }
-    },
-    {
-        id: "library-mgmt",
-        title: "Library Management System",
-        codename: "LIBRARY_SYS",
-        status: "COMPLETED",
-        description: "A Java-based library management system demonstrating OOP principles. Features book cataloging, member management, borrow/return tracking, and search functionality with file I/O persistence.",
-        tech: ["Java", "OOP", "File I/O", "Swing UI"],
-        image: "📚",
-        github: "https://github.com/Ali288360",
-        live: "",
-        stats: {
-            "Language": "Java",
-            "Concepts": "OOP+DSA",
-            "Type": "Desktop"
-        }
-    },
-    {
-        id: "rest-api",
-        title: "REST API Backend",
-        codename: "API_NEXUS",
-        status: "ACTIVE",
-        description: "A production-ready REST API built with Express.js following best practices. Includes proper routing, request validation, error handling middleware, rate limiting, and full CRUD operations with MongoDB.",
-        tech: ["Node.js", "Express.js", "MongoDB", "Postman"],
-        image: "🛠️",
-        github: "https://github.com/Ali288360",
-        live: "",
-        stats: {
-            "Endpoints": "RESTful",
-            "Validation": "Middleware",
-            "Docs": "Postman"
+            "Type": "Full Stack",
+            "DB": "MongoDB",
+            "Auth": "JWT"
         }
     }
 ];
+
+
 
 const RecentProjectsNew = () => {
     const [activeProject, setActiveProject] = useState(projects[0].id);

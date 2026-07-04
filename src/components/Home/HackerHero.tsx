@@ -139,22 +139,23 @@ const HackerHero = () => {
                                     className="border-green-500 text-green-500 hover:bg-green-500 hover:text-black hover:shadow-[0_0_20px_#22c55e] shadow-[0_0_10px_rgba(34,197,94,0.3)] group relative overflow-hidden"
                                     onClick={() => {
                                         const link = document.createElement('a');
-                                        link.href = '/abdi-ali-abdi-resume.html';
-                                        link.download = 'Abdi_Ali_Abdi_Resume.html';
+                                        link.href = '/Abdi_Ali_Abdi_Resume.pdf';
+                                        link.download = 'Abdi_Ali_Abdi_Resume.pdf';
                                         document.body.appendChild(link);
                                         link.click();
                                         document.body.removeChild(link);
                                     }}
                                 >
                                     <div className="flex items-center gap-2 relative z-10">
-                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                                         </svg>
                                         <span>Download Resume</span>
                                     </div>
-                                    {/* Glitch Overlay */}
                                     <div className="absolute inset-0 bg-green-400/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 skew-x-12" />
                                 </NeonButton>
+
+
                             </motion.div>
                         </div>
 

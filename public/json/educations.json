@@ -1,18 +1,18 @@
 [
   {
-    "degree": "Bachelor of Technology",
-    "program": "Computer Engineering",
-    "institution": "Birla Vishvakarma Mahavidyalaya (BVM)",
+    "degree": "Bachelor of Technology (B.Tech)",
+    "program": "Computer Science & Engineering",
+    "institution": "BVM College of Engineering",
     "location": "Gujarat, India",
-    "date": "2022 – 2026 (Expected)",
-    "grade": "In Progress"
+    "date": "2024 – 2028",
+    "grade": "5th Semester (Current)"
   },
   {
-    "degree": "Higher Secondary Education",
-    "program": "Science & Mathematics",
-    "institution": "Secondary School",
-    "location": "Kenya",
-    "date": "2018 – 2022",
+    "degree": "Higher Secondary Certificate (HSC)",
+    "program": "Science Stream",
+    "institution": "High School",
+    "location": "India",
+    "date": "2019 – 2022",
     "grade": "Completed"
   }
 ]
