@@ -31,7 +31,7 @@
     "framer-motion": "^12.4.7",
     "maath": "^0.10.8",
     "my-portfolio": "file:",
-    "next": "15.1.7",
+    "next": "^16.2.10",
     "plaiceholder": "^3.0.0",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
