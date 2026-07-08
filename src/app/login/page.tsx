@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -28,7 +29,7 @@ export default function LoginPage() {
       setTimeout(() => setBootText(text), delay);
     });
     setTimeout(() => setBooted(true), 2400);
-  }, []);
+  }, [router]);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -204,9 +205,9 @@ export default function LoginPage() {
                   <p className="text-gray-600 font-mono text-[10px] tracking-widest">
                     SYSTEM: PORTFOLIO_ADMIN_v1.0
                   </p>
-                  <a href="/" className="text-gray-500 hover:text-neon-cyan font-mono text-[10px] transition-colors mt-1 inline-block">
+                  <Link href="/" className="text-gray-500 hover:text-neon-cyan font-mono text-[10px] transition-colors mt-1 inline-block">
                     ← Return to Portfolio
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
