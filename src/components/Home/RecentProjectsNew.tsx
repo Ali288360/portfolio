@@ -16,7 +16,7 @@ const projects = [
         description: "A cyberpunk-themed personal portfolio built with Next.js, TypeScript, and Tailwind CSS. Features 3D animations using Three.js, glassmorphism UI, particle effects, and responsive design.",
         tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
         image: "🌐",
-        github: "https://github.com/AbdiAliAbdi",
+        github: "https://github.com/Ali288360",
         live: "https://abdialiabdi.netlify.app",
         year: "2026",
         stats: {
@@ -26,37 +26,20 @@ const projects = [
         }
     },
     {
-        id: "pos-system",
-        title: "POS System",
-        codename: "POS_CORE",
+        id: "ems",
+        title: "Employee Management System",
+        codename: "EMS_CORE",
         status: "COMPLETED",
-        description: "A full-featured Point of Sale system to manage product inventory, process sales transactions, and generate receipts. Includes product management, category filtering, sales tracking, and a smooth checkout flow.",
-        tech: ["React", "Node.js", "MongoDB", "Express.js"],
-        image: "🛒",
-        github: "https://github.com/AbdiAliAbdi",
+        description: "A comprehensive Employee Management System built with React and Node.js. Includes features for secure authentication, attendance tracking, leave management, employee records, and payslips.",
+        tech: ["React", "Node.js", "Express.js", "MongoDB"],
+        image: "👥",
+        github: "https://github.com/Ali288360/employee-management-system",
         live: "",
         year: "2026",
         stats: {
             "Type": "Full Stack",
-            "DB": "MongoDB",
-            "Auth": "JWT"
-        }
-    },
-    {
-        id: "mern-dashboard",
-        title: "MERN Admin Dashboard",
-        codename: "MERN_DASH",
-        status: "COMPLETED",
-        description: "A full-featured admin dashboard built with the MERN stack (MongoDB, Express.js, React, Node.js). Features user authentication with JWT, role-based access control, dynamic charts and analytics, CRUD operations, and a fully responsive layout.",
-        tech: ["React", "Node.js", "MongoDB", "Express.js"],
-        image: "📊",
-        github: "https://github.com/AbdiAliAbdi",
-        live: "",
-        year: "2026",
-        stats: {
-            "Type": "Full Stack",
-            "DB": "MongoDB",
-            "Auth": "JWT"
+            "Focus": "Management",
+            "Stack": "MERN"
         }
     }
 ];

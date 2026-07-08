@@ -12,7 +12,7 @@ const experiences = [
         id: "coursework",
         company: "B.Tech Computer Engineering",
         role: "Student @ Birla Vishvakarma Mahavidyalaya",
-        period: "2022 – 2026 (Expected)",
+        period: "2024 – 2028",
         location: "Gujarat, India",
         description: "Pursuing a Bachelor of Technology in Computer Engineering at BVM, one of India's respected engineering institutions. Building core theoretical and practical skills across the full computer science spectrum.",
         details: [
@@ -26,7 +26,7 @@ const experiences = [
         stats: {
             "Degree": "B.Tech",
             "Field": "Comp. Eng.",
-            "Grad": "2026"
+            "Grad": "2028"
         }
     },
     {
